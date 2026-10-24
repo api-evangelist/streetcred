@@ -1,0 +1,13 @@
+generated: '2026-10-24'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.streetcred.co
+  https: false
+domains:
+- domain: streetcred.co
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
